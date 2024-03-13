@@ -1,0 +1,245 @@
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper {
+    height: 52px;
+    /*background-color: pink;*/
+}
+
+.shortcut .wrapper ul {
+    margin: 0;
+    float: right;
+    line-height: 52px;
+    list-style-type: none;
+}
+
+.shortcut .wrapper li {
+    float: left;
+}
+
+.shortcut .wrapper a {
+    text-decoration: none;
+    padding: 0 16px;
+    color: #dcdcdc;
+    border-right: 1px solid #666;
+}
+
+.shortcut .wrapper a span {
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 32px;
+    background-image: url("../images/sprites.png");
+    background-position: -321px -142px;
+    vertical-align: middle;
+}
+
+.header {
+    margin: 30px auto;
+    height: 70px;
+    /*background-color: pink;*/
+}
+
+.logo {
+    float: left;
+    width: 207px;
+    height: 70px;
+    /*background-color: skyblue;*/
+}
+
+.logo h1 {
+    margin: 0;
+    width: 200px;
+    height: 70px;
+}
+
+.logo h1 a {
+    display: block;
+    width: 200px;
+    height: 70px;
+    background-image: url("../images/llogo.png");
+    background-position: -46px -43px;
+    background-size: 309px 158px;
+    font-size: 0;
+}
+
+.nav {
+    margin: 0;
+    float: left;
+    height: 70px;
+    /*background-color: pink;*/
+}
+
+.nav ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav li {
+    float: left;
+    margin-right: 48px;
+    line-height: 70px;
+    color: #333;
+}
+
+.nav li a {
+    padding-bottom: 7px;
+}
+
+.nav li a:hover {
+    color: darkseagreen;
+    border-bottom: 1px solid darkseagreen;
+}
+
+.search {
+    position: relative;
+    float: left;
+    margin-top: 24px;
+    margin-left: 34px;
+    height: 30px;
+    width: 172px;
+    /*background-color: darkseagreen;*/
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.search input {
+    padding-left: 30px;
+    width: 172px;
+    height: 28px;
+    /*清除默认边框*/
+    border: none;
+    outline: none;
+}
+
+.search input::placeholder {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.search span {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    /*display: inline-block;*/
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/ss.png");
+    background-repeat: no-repeat;
+}
+
+.car {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 28px;
+    width: 23px;
+    height: 23px;
+    /*background-color: coral;*/
+    background-image: url("../images/sprites.png");
+    background-position: -126px -67px;
+    background-size: 418px 391px;
+}
+
+.car span {
+    /*absolute本来就是行内快可以不加display*/
+    position: absolute;
+    top: -1px;
+    left: 15px;
+    /*display: inline-block;*/
+    border-radius: 5px;
+    line-height: 12px;
+    text-align: center;
+    width: 14px;
+    height: 12px;
+    font-size: 8px;
+    color: #e7e7e7;
+    background-color: #DB6034;
+}
+
+.footer {
+    height: 324px;
+    background-color: #333;
+}
+
+.footer .wrapper {
+    width: 1393px;
+}
+
+.footer .top {
+    padding-top: 59px;
+    padding-left: 95px;
+    height: 175px;
+    border-bottom: 3px solid #434343;
+}
+
+.footer .top ul {
+    list-style-type: none;
+}
+
+.footer .top li {
+    position: relative;
+    float: left;
+    margin-right: 260px;
+    padding-top: 20px;
+    width: 200px;
+    height: 80px;
+    /*background-color: pink;*/
+    line-height: 58px;
+}
+
+.footer .top li:last-child {
+    margin-right: 0;
+}
+
+/*伪元素添加标签 行内*/
+.footer .top li::before {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    /*display: inline-block;*/
+    content: "";
+    width: 60px;
+    height: 58px;
+    background-image: url("../images/sprites.png");
+    background-position: 2px 0;
+    background-size: 400px 400px;
+    vertical-align: middle;
+/*    会将元素的垂直中心与父元素的垂直中心对齐。*/
+}
+.footer .top li:nth-child(2)::before {
+    background-position: -63px 0;
+}
+.footer .top li:nth-child(3)::before {
+    background-position: -127px 0;
+}
+.footer .top li span {
+    margin-left: 68px;
+    font-size: 28px;
+    color: #fff;
+}
+.footer .bottom p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #999;
+    padding-top: 20px;
+    text-align: center;
+}
+.footer .bottom{
+    text-align: center;
+}
+.footer .bottom a{
+    font-size: 14px;
+    display: inline-block;
+    color: #999;
+    text-decoration:none;
+}

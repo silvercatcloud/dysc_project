@@ -1,0 +1,390 @@
+.banner {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.banner .wrapper {
+    position: relative;
+    height: 500px;
+}
+
+.banner .wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.banner .aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.banner .aside li {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.banner .aside li a {
+    display: block;
+    width: 250px;
+    height: 50px;
+    color: #f5f5f5;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.banner .aside li:hover {
+    background-color: darkseagreen;
+}
+
+/*-------------------------新鲜好物------------------------*/
+
+.goods .hd {
+    height: 114px;
+    /*background-color: pink;*/
+    line-height: 114px;
+}
+
+.goods .hd h2 {
+    margin: 0;
+    float: left;
+    color: #434343;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.goods .hd span {
+    margin-left: 34px;
+    font-size: 16px;
+    color: #999;
+}
+
+.goods .hd a {
+    float: right;
+    text-decoration: none;
+    color: #999;
+}
+
+.goods .bd ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.goods .bd li {
+    float: left;
+    margin-right: 20px;
+    width: 280px;
+    height: 405px;
+    background-color: #f0f9f4;
+    text-align: center;
+}
+
+.goods .bd li:nth-child(4) {
+    margin-right: 0;
+}
+
+.goods .bd li img {
+    width: 280px;
+}
+
+.goods .bd li h3 {
+
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.goods .bd li .price {
+    display: block;
+    font-size: 23px;
+    color: #9a2e1f;
+}
+
+
+/*-------------------------人气推荐------------------------*/
+
+.recommend .hd {
+    height: 114px;
+    /*background-color: pink;*/
+    line-height: 114px;
+}
+
+.recommend .hd h2 {
+    margin: 0;
+    float: left;
+    color: #434343;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.recommend .hd span {
+    margin-left: 34px;
+    font-size: 16px;
+    color: #999;
+}
+
+.recommend .hd a {
+    float: right;
+    text-decoration: none;
+    color: #999;
+}
+
+.recommend .bd ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.recommend .bd li {
+    float: left;
+    margin-right: 20px;
+    width: 280px;
+    height: 405px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.recommend .bd li:nth-child(4) {
+    margin-right: 0;
+}
+
+.recommend .bd li img {
+    width: 280px;
+}
+
+.recommend .bd li h3 {
+
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.recommend .bd li .price {
+    display: block;
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+}
+
+/*-----------------------生鲜----------------------------------*/
+.fresh .hd {
+    height: 96px;
+    /*background-color: pink;*/
+    color: #434343;
+    line-height: 96px;
+}
+
+.fresh .hd h2 {
+    margin: 0;
+
+    float: left;
+}
+
+.fresh .hd .more {
+    float: right;
+    color: #999;
+}
+
+.fresh .hd ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    float: right;
+}
+
+.fresh .hd ul li {
+    float: right;
+}
+
+.fresh .hd ul li a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #434343;
+}
+
+.fresh .bd {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.fresh .bd .left {
+    float: left;
+    width: 240px;
+    height: 610px;
+    /*background-color: pink;*/
+}
+
+.fresh .bd .left img {
+    width: 240px;
+}
+
+.fresh .bd .right {
+    float: left;
+    width: 1000px;
+    height: 610px;
+    /*background-color: skyblue;*/
+}
+
+.fresh .bd .right ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.fresh .bd .right li {
+    position: relative;
+    width: 220px;
+    height: 290px;
+    padding-top: 10px;
+    margin-left: 10px;
+    float: left;
+    /*border: 1px solid #007aff;*/
+    background-color: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.fresh .bd .right li img {
+    width: 160px;
+}
+
+.fresh .bd .right li a {
+    display: block;
+}
+
+.fresh .bd .right .imgBox {
+    width: 220px;
+    height: 160px;
+    padding: 0 10px;
+    text-align: center;
+    margin: 0 auto;
+    /*将元素作为表格单元格（td）来显示*/
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fresh .bd .right li .meta {
+    position: relative;
+    width: 180px;
+    height: 120px;
+    line-height: 1.3;
+    padding: 5px 25px 0;
+    font-size: 19px;
+}
+
+.fresh .bd .right li .extra {
+    position: absolute;
+    padding-top: 10px;
+    width: 100%;
+    height: 73px;
+    transition: bottom 0.3s;
+    bottom: -100px;
+
+}
+
+.fresh .bd .right li .extra a {
+    display: block;
+    padding-top: 6px;
+}
+
+.fresh .bd .right li .extra span {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin: auto 30px;
+    line-height: 2;
+}
+
+.fresh .bd .right li .extra span:last-child {
+    font-size: 13px;
+    border-top: 1px solid #fff;
+}
+
+.fresh .bd .right li:hover .extra {
+    bottom: -1px;
+    background-color: #27BA9B;
+}
+
+.fresh .bd .right li .name {
+    margin: 0;
+    display: block;
+    width: 160px;
+    font-size: 17px;
+    color: #434343;
+    text-align: left;
+}
+
+.fresh .bd .right li .flag {
+    margin: 0;
+    padding: 0;
+}
+
+.fresh .bd .right li .price {
+    position: absolute;
+    bottom: 7px;
+    left: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #9a2e1f;
+}
+
+.fresh .bd .right li:nth-child(2) img {
+    height: 154px;
+}
+
+.fresh .bd .right li:hover {
+    border: 2px solid darkseagreen;
+}
+
+.elevator {
+    position: fixed;
+    left: 50%;
+    top: 280px;
+    margin-left: 640px;
+    /*透明度为0*/
+    opacity: 0;
+    transition: all .5s;
+    background: #fff;
+    /*background-color: pink;*/
+    border: 1px solid  #f5f5f5;
+}
+
+.elevator .elevatorList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 55px;
+    height: 270px;
+    float: right;
+    position: relative;
+}
+
+.elevator .elevatorList li {
+    width: 55px;
+    height: 50px;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.elevator .elevatorList .goUp{
+    position:absolute;
+    bottom: -25px;
+}
+.elevator .elevatorList li a {
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+.elevator .elevatorList li:hover a {
+  color: #27BA9B;
+}
